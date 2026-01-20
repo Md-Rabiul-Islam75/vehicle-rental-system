@@ -13,7 +13,7 @@ const auth = (...roles: string[]) => {
         return res.status(401).json({ success: false, message: "Unauthorized" });
       }
       const token = authHeader.split(" ")[1];
-      const decoded = jwt.verify(token, config.jwtSecret as string) as JwtPayload;
+      const decoded = jwt.verify(token as string, config.jwtSecret as string) as JwtPayload;
       console.log({ decoded });
       req.user = decoded;
 

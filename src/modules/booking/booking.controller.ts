@@ -27,7 +27,7 @@ const updateBooking = async (req: Request, res: Response) => {
     const user = req.user as any;
     const bookingId = req.params.bookingId;
     const { status } = req.body;
-    const result = await bookingService.updateBooking(bookingId, status, user);
+    const result = await bookingService.updateBooking(bookingId as string, status, user);
     res.status(200).json({ success: true, message: result.message, data: result.data });
   } catch (err: any) {
     res.status(400).json({ success: false, message: err.message });

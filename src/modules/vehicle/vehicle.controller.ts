@@ -29,7 +29,7 @@ const getAllVehicles = async (req: Request, res: Response) => {
 
 const getVehicleById = async (req: Request, res: Response) => {
   try {
-    const result = await vehicleService.getVehicleById(req.params.vehicleId);
+    const result = await vehicleService.getVehicleById(req.params.vehicleId as string);
     if (result.rows.length === 0) {
       return res.status(404).json({ success: false, message: "Vehicle not found" });
     }
@@ -53,7 +53,7 @@ const updateVehicle = async (req: Request, res: Response) => {
 
 const deleteVehicle = async (req: Request, res: Response) => {
   try {
-    await vehicleService.deleteVehicle(req.params.vehicleId);
+    await vehicleService.deleteVehicle(req.params.vehicleId as string);
     res.status(200).json({ success: true, message: "Vehicle deleted successfully" });
   } catch (err: any) {
     res.status(400).json({ success: false, message: err.message });
