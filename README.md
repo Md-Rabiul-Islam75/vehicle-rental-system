@@ -1,7 +1,7 @@
-#Project Name & Live URL
+##Project Name & Live URL
 The Vehicle Rental System.
 
-#Features & Technology Stack
+##Features & Technology Stack
 Node.js + TypeScript
 Express.js (web framework)
 PostgreSQL (database)
@@ -9,7 +9,7 @@ bcrypt (password hashing)
 jsonwebtoken (JWT authentication)
 
 
-#Setup & Usage Instructions
+##Setup & Usage Instructions
 1. Clone the repository
 2. Install dependencies
 3. Configure environment variables
