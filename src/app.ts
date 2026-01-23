@@ -18,7 +18,7 @@ initDB();
 
 // "/" -> localhost:5000/
 app.get("/", logger, (req: Request, res: Response) => {
-  res.send("Hello Next Level Developers!");
+  res.send("Hello from Vehicle Rental System!");
 });
 
 // API v1 prefix
