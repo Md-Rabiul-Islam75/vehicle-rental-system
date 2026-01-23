@@ -2,12 +2,15 @@
 The Vehicle Rental System.
 Live server url: https://vehicle-rental-system-three-chi.vercel.app/
 ## Features & Technology Stack
-Node.js + TypeScript /n
-Express.js (web framework) /n
-PostgreSQL (database) /n
-bcrypt (password hashing) /n
-jsonwebtoken (JWT authentication)
+Node.js + TypeScript 
 
+Express.js (web framework)
+
+PostgreSQL (database) 
+
+bcrypt (password hashing) 
+
+jsonwebtoken (JWT authentication)
 
 ## Setup & Usage Instructions
 1. Clone the repository
