@@ -1,11 +1,11 @@
 # Project Name & Live URL
 The Vehicle Rental System.
-Live server url: 
+Live server url: https://vehicle-rental-system-three-chi.vercel.app/
 ## Features & Technology Stack
-Node.js + TypeScript
-Express.js (web framework)
-PostgreSQL (database)
-bcrypt (password hashing)
+Node.js + TypeScript /n
+Express.js (web framework) /n
+PostgreSQL (database) /n
+bcrypt (password hashing) /n
 jsonwebtoken (JWT authentication)
 
 
