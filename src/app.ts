@@ -23,7 +23,6 @@ app.get("/", logger, (req: Request, res: Response) => {
 
 // API v1 prefix
 app.use("/api/v1/users", userRoutes);
-app.use("/api/v1/todos", todoRoutes);
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/vehicles", vehicleRoutes);
 app.use("/api/v1/bookings", bookingRoutes);
